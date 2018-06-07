@@ -15,7 +15,7 @@ CIFAR-10 Convolutional Neural Network implementation using TensorFlow.
 ## Accuracy
 This model is able to acheive 100% accuracy on training data and 96.08% accuracy on test data. The training data is composed of 40000 images and the test data consists of remaining 10000 images from the CIFAR-10 dataset.
 
-This implementation contains 5 convulational layers having max-pooling and dropout in some of the layer. Apart from these, it has 3 fully connected layers at the end. All the covulational layers use ReLU as the activation function. The last fully connected layer uses Sigmoid as the activation fuction to get the final outputs as probability distribution among the 10 classes.
+This implementation contains 5 convolutional layers having max-pooling and dropout in some of the layer. Apart from these, it has 3 fully connected layers at the end. All the convolutional layers use ReLU as the activation function. The last fully connected layer uses Sigmoid as the activation fuction to get the final outputs as probability distribution among the 10 classes.
 
 ## Try this on your machine
 ### Clone this repository
